@@ -1,0 +1,32 @@
+body, html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    line-height: 2em;
+}
+
+#navbar {
+    width: 100%;
+    transition: 300ms;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+}
+
+.items {
+    display: flex;
+}
+
+.blueHover:hover{
+    color:#2254f2;
+    transition:.33s
+}
+
+#header {
+    position: absolute;
+    z-index: 10;
+    height: 100px;
+    width: 100%;
+    background-color: #2254f2;
+}
